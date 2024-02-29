@@ -25,5 +25,8 @@
 ## 설명 자료
 
 [노션자료정리](https://potent-havarti-4b7.notion.site/useEffect-aa186814dd0e4ae199b2f342cbefdb08?pvs=4)
+
 [useEffect 마스터하기 - 별코딩](https://www.youtube.com/watch?v=kyodvzc5GHU)
+
 [useEffect를 사용하여 업데이트 할 작업 설정하기](https://react.vlpt.us/basic/16-useEffect.html)
+
