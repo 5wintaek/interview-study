@@ -85,3 +85,15 @@
 | [HTTP란?](/kjeeu/김지호%3A%204주차%20정리내용%20업로드.md)   | Web        | 김지호 |
 | [이벤트 바인딩이란?](/yeseul/event%20binding.md)             | JavaScript | 강예슬 |
 
+## 5주차 (2024.02.29)
+
+| 질문                                                         | 분야       | 작성자 |
+| ------------------------------------------------------------ | ---------- | ------ |
+| [리액트 라이프사이클 ](/dongryul/lifeCycle.md) | React      | 김동률 |
+| [자바스크립트는 무슨 언어인가요?](/hyunwlee/what-is-js.md)     | JavaScript      | 이현우 |
+| [useEffect란 무엇인가요?](/seungtaek/useEffect.md) | React       | 오승택 |
+| [주소창에 google.com을 입력하면 일어나는 일](yeseul/주소창에-google.com을-입력하면-일어나는-일.md)          | Web | 강예슬 |
+
+## 6주차 (2024.03.07)
+- 전체 질문 리뷰
+- 전체 스터디 회고 및 마무리
