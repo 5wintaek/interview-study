@@ -10,7 +10,7 @@
 ## 1. 어트리뷰트 방식(HTML 이벤트 핸들러)
 - HTML 요소의 이벤트 Attribute에 이벤트 핸들러를 대응시키는 방법이다.
 
-```
+```js
 <button onclick="clickBtn()">Click me</button>
 
 function clickBtn() {
@@ -19,7 +19,7 @@ function clickBtn() {
 ```
 - 어트리뷰트 방식 내부의 this
   - HTML 이벤트 핸들러 방식의 경우, 이벤트 핸들러 내부의 this는 window를 가리킨다.
-```
+```js
 <button onclick="clickBtn()">Click me</button>
 
 function clickBtn() {
@@ -35,7 +35,7 @@ function clickBtn() {
   2. 함수에 인수를 전달할 수 없다.
   3. 바인딩된 이벤트 핸들러가 2개 이상일 경우, 제일 마지막에 추가된 코드의 바인딩된 이벤트 핸들러만 실행된다.
 
-```
+```js
 <button id="myBtn">Click me</button>
 
 var myBtn = document.getElementById('myBtn');
@@ -54,7 +54,7 @@ myBtn.onclick = function () {
 - 프로퍼티 방식 내부의 this
   - 전통적인 DOM 이벤트 핸들러 방식에서 이벤트 핸들러 내부의 this는 이벤트에 바인딩된 요소를 가리킨다. 이것은 이벤트 객체의 currentTarget 프로퍼티와 같다.
 
-```
+```js
 <button id="myButton">Click me!!!</button>
 
 var myBtn = document.getElementById('myButton');
@@ -68,7 +68,7 @@ myBtn.onclick = function() {
 ## 3. addEventListner 방식
 - addEventListener 함수를 이용하여 대상 요소(Event Target)에 이벤트를 바인딩하고, 해당 이벤트가 발생했을 때 실행될 콜백 함수를 지정한다.
 
-```
+```js
 target.addEventListener(type, listener[, useCapture]);
 
 var el = document.getElementById("outside");
@@ -88,7 +88,7 @@ el.addEventListener("click", function(){modifyText("four")}, false);
 - addEventListner 방식 내부의 this
   - addEventListener 함수에서 지정한 이벤트 핸들러 내부의 this는 Event Listener에 바인딩된 요소(currentTarget)를 가리킨다. 이것은 이벤트 객체의 currentTarget 프로퍼티와 같다.
 
-```
+```js
 <button id="myBtn">Click me!!!</button>
 
 var myBtn = document.getElementById('myBtn');
